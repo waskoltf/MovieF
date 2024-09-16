@@ -24,20 +24,24 @@ struct MovieDetailView: View {
                     .font(.largeTitle)
                     .padding(.top)
                     .padding(.horizontal)
+                    .accessibility(identifier: "detailTitle")
 
                 Text("Release Date: \(movie.release_date)")
                     .font(.subheadline)
                     .padding(.top, 5)
                     .padding(.horizontal)
+                    .accessibility(identifier: "releaseDate")  // Assurez-vous que cet identifiant est défini
 
                 Text("Rating: \(movie.vote_average, specifier: "%.1f")/10")
                     .font(.subheadline)
                     .padding(.top, 5)
                     .padding(.horizontal)
+                    .accessibility(identifier: "rating")
 
                 Text(movie.overview)
                     .padding(.top, 10)
                     .padding(.horizontal)
+                    .accessibility(identifier: "overview")
 
                 Button(action: {
                     CoreDataManager.shared.addSeenMovie(movie: movie)
@@ -50,10 +54,10 @@ struct MovieDetailView: View {
                         .padding(.horizontal)
                         .padding(.top, 10)
                 }
+                .accessibility(identifier: "markAsSeenButton")
             }
             .padding(.bottom)
         }
         .navigationTitle(movie.title)
     }
 }
-

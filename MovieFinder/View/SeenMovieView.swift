@@ -30,10 +30,18 @@ struct SeenMoviesView: View {
                             Text(seenMovie.release_date ?? "Unknown Date")
                                 .font(.subheadline)
                                 .foregroundColor(.gray)
+//                            Button("Crash") {
+//                              fatalError("Crash was triggered")
+//                            }
+                            
+                           
                         }
                     }
                 }
                 .onDelete(perform: deleteMovies)
+//                Button("Crash") {
+//                  fatalError("Crash was triggered")
+//                }
             }
             .navigationTitle("Seen Movies")
             .toolbar {

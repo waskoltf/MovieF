@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct MovieFinderApp: App {
     let persistenceController = CoreDataManager.shared
+
+    init() {
+        FirebaseApp.configure()
+        
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -18,3 +24,4 @@ struct MovieFinderApp: App {
         }
     }
 }
+
