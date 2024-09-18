@@ -114,6 +114,7 @@
 		EA40421F2C5680B000011AF4 = {
 			isa = PBXGroup;
 			children = (
+				EAE804862C9AF81600A6D8EA /* New Group */,
 				EA40422A2C5680B000011AF4 /* MovieFinder */,
 				EA4042402C5680B200011AF4 /* MovieFinderTests */,
 				EA40424A2C5680B200011AF4 /* MovieFinderUITests */,
@@ -207,6 +208,13 @@
 				EA4042602C56828100011AF4 /* MovieService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		EAE804862C9AF81600A6D8EA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +374,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)\n",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
