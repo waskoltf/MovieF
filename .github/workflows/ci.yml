@@ -11,6 +11,13 @@ on:
 jobs:
   test:
     runs-on: macos-latest
+    
+    permissions:
+     contents: write
+     id-token: write
+     packages: write
+     actions: write
+     pull-requests: write
 
     steps:
     - name: Checkout repository
