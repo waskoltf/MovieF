@@ -13,7 +13,6 @@
 		EA2551F22C831E5400688065 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = EA2551F12C831E5400688065 /* FirebaseAppCheck */; };
 		EA2551F42C831E5400688065 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EA2551F32C831E5400688065 /* FirebaseAppDistribution-Beta */; };
 		EA2551F82C834EF500688065 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = EA2551F72C834EF500688065 /* FirebaseCrashlytics */; };
-		EA2551FA2C8350E500688065 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA2551F92C8350E500688065 /* GoogleService-Info.plist */; };
 		EA40422C2C5680B000011AF4 /* MovieFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40422B2C5680B000011AF4 /* MovieFinderApp.swift */; };
 		EA40422E2C5680B000011AF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40422D2C5680B000011AF4 /* ContentView.swift */; };
 		EA4042302C5680B200011AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA40422F2C5680B200011AF4 /* Assets.xcassets */; };
@@ -30,6 +29,7 @@
 		EA40426A2C568FBD00011AF4 /* MovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA4042682C568FBD00011AF4 /* MovieModel.xcdatamodeld */; };
 		EA40426C2C56913800011AF4 /* MovieSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40426B2C56913800011AF4 /* MovieSearchView.swift */; };
 		EA40426E2C56966000011AF4 /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40426D2C56966000011AF4 /* CoreDataManagerTests.swift */; };
+		EAE8048F2C9C4AC200A6D8EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE8048E2C9C4AC200A6D8EA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA2551F92C8350E500688065 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA4042282C5680B000011AF4 /* MovieFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA40422B2C5680B000011AF4 /* MovieFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderApp.swift; sourceTree = "<group>"; };
 		EA40422D2C5680B000011AF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +69,7 @@
 		EA4042692C568FBD00011AF4 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
 		EA40426B2C56913800011AF4 /* MovieSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchView.swift; sourceTree = "<group>"; };
 		EA40426D2C56966000011AF4 /* CoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTests.swift; sourceTree = "<group>"; };
-		EAE8048D2C9C474700A6D8EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAE8048E2C9C4AC200A6D8EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,23 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA2551F62C834EF500688065 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EA2551F92C8350E500688065 /* GoogleService-Info.plist */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EA40421F2C5680B000011AF4 = {
 			isa = PBXGroup;
 			children = (
-				EAE8048D2C9C474700A6D8EA /* GoogleService-Info.plist */,
+				EAE8048E2C9C4AC200A6D8EA /* GoogleService-Info.plist */,
 				EA40422A2C5680B000011AF4 /* MovieFinder */,
 				EA4042402C5680B200011AF4 /* MovieFinderTests */,
 				EA40424A2C5680B200011AF4 /* MovieFinderUITests */,
 				EA4042292C5680B000011AF4 /* Products */,
-				EA2551F62C834EF500688065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -329,7 +319,7 @@
 			files = (
 				EA4042332C5680B200011AF4 /* Preview Assets.xcassets in Resources */,
 				EA4042302C5680B200011AF4 /* Assets.xcassets in Resources */,
-				EA2551FA2C8350E500688065 /* GoogleService-Info.plist in Resources */,
+				EAE8048F2C9C4AC200A6D8EA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
