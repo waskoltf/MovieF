@@ -24,7 +24,7 @@ jobs:
     - name: Set up GoogleService-Info.plist
       env:
         GOOGLE_SERVICE_INFO: ${{ secrets.GOOGLE_SERVICE_INFO }}
-      run: echo "$GOOGLE_SERVICE_INFO" > GoogleService-Info.plist
+      run: echo "$GOOGLE_SERVICE_INFO" > ./MovieFinder/GoogleService-Info.plist
 
     - name: Build and test
       run: |

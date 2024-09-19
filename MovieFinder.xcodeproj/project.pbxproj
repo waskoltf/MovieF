@@ -30,6 +30,8 @@
 		EA40426C2C56913800011AF4 /* MovieSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40426B2C56913800011AF4 /* MovieSearchView.swift */; };
 		EA40426E2C56966000011AF4 /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40426D2C56966000011AF4 /* CoreDataManagerTests.swift */; };
 		EAE8048F2C9C4AC200A6D8EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE8048E2C9C4AC200A6D8EA /* GoogleService-Info.plist */; };
+		EAE804902C9C836D00A6D8EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE8048E2C9C4AC200A6D8EA /* GoogleService-Info.plist */; };
+		EAE804912C9C836D00A6D8EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE8048E2C9C4AC200A6D8EA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE804902C9C836D00A6D8EA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE804912C9C836D00A6D8EA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
