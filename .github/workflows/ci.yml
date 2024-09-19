@@ -29,6 +29,9 @@ jobs:
         GOOGLE_SERVICE_INFO: ${{ secrets.GOOGLE_SERVICE_INFO }}
       run: echo "$GOOGLE_SERVICE_INFO" > MovieFinder/Frameworks/GoogleService-Info.plist
 
+    - name: Copy GoogleService-Info.plist to built products directory
+      run: cp MovieFinder/Frameworks/GoogleService-Info.plist $(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)
+
     - name: Build and test
       run: |
         xcodebuild -scheme MovieFinder -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' build test
