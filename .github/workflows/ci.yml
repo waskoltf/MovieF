@@ -21,6 +21,10 @@ jobs:
       with:
         xcode-version: '15.2'
 
+    - name: Create Frameworks directory
+      run: |
+        mkdir -p ./MovieFinder/Frameworks
+
     - name: Create GoogleService-Info.plist
       run: |
         echo "$GOOGLE_SERVICE_INFO_PLIST" > ./MovieFinder/Frameworks/GoogleService-Info.plist
