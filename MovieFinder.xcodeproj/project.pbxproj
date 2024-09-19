@@ -103,12 +103,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA2551F62C834EF500688065 /* Frameworks */ = {
+		EA2551F62C834EF500688065 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
 				EA2551F92C8350E500688065 /* GoogleService-Info.plist */,
 			);
-			name = Frameworks;
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 		EA40421F2C5680B000011AF4 = {
@@ -119,7 +119,7 @@
 				EA4042402C5680B200011AF4 /* MovieFinderTests */,
 				EA40424A2C5680B200011AF4 /* MovieFinderUITests */,
 				EA4042292C5680B000011AF4 /* Products */,
-				EA2551F62C834EF500688065 /* Frameworks */,
+				EA2551F62C834EF500688065 /* Ressources */,
 			);
 			sourceTree = "<group>";
 		};
