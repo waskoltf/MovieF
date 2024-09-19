@@ -21,13 +21,10 @@ jobs:
       with:
         xcode-version: '15.2'
 
-    - name: Create directory for GoogleService-Info.plist
-      run: mkdir -p MovieFinder/MovieFinder
-
     - name: Set up GoogleService-Info.plist
       env:
         GOOGLE_SERVICE_INFO: ${{ secrets.GOOGLE_SERVICE_INFO }}
-      run: echo "$GOOGLE_SERVICE_INFO" > MovieFinder/MovieFinder/GoogleService-Info.plist
+      run: echo "$GOOGLE_SERVICE_INFO" > GoogleService-Info.plist
 
     - name: Build and test
       run: |
