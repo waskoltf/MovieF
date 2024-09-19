@@ -50,7 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA2551F92C8350E500688065 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EA2551F92C8350E500688065 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA4042282C5680B000011AF4 /* MovieFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA40422B2C5680B000011AF4 /* MovieFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderApp.swift; sourceTree = "<group>"; };
 		EA40422D2C5680B000011AF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,7 +114,6 @@
 		EA40421F2C5680B000011AF4 = {
 			isa = PBXGroup;
 			children = (
-				EAE804862C9AF81600A6D8EA /* New Group */,
 				EA40422A2C5680B000011AF4 /* MovieFinder */,
 				EA4042402C5680B200011AF4 /* MovieFinderTests */,
 				EA40424A2C5680B200011AF4 /* MovieFinderUITests */,
@@ -208,13 +207,6 @@
 				EA4042602C56828100011AF4 /* MovieService.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		EAE804862C9AF81600A6D8EA /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
