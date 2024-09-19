@@ -21,9 +21,11 @@ jobs:
       with:
         xcode-version: '15.2'
 
-    - name: Copy GoogleService-Info.plist
+    - name: Create GoogleService-Info.plist
       run: |
-        cp ./Frameworks/GoogleService-Info.plist ./MovieFinder/GoogleService-Info.plist
+        echo "$GOOGLE_SERVICE_INFO_PLIST" > ./MovieFinder/Frameworks/GoogleService-Info.plist
+      env:
+        GOOGLE_SERVICE_INFO_PLIST: ${{ secrets.GOOGLE_SERVICE_INFO_PLIST }}
 
     - name: Build and test
       run: |
